@@ -1,8 +1,6 @@
 {
   "Tags": [
-    "okta-groups",
-    "okta-users",
-    "okta-system"
+    "okta"
   ],
   "Assets": [
     {

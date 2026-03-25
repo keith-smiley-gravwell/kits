@@ -32,11 +32,13 @@ A toolkit for interacting with Okta data in Gravwell. This kit includes queries,
 - Purpose: Tags are an essential Gravwell concept. Every entry has a single tag associated with it; these tags allow us to separate and categorize data at a basic level.
 - [Documentation](https://docs.gravwell.io/ingesters/ingesters.html#tags)
 - The Okta Kit for Gravwell makes use of the following tags:
-    - okta-groups: Tag contains all of your Okta Group Log data.
+    - okta: Tag contains all of your Okta Log data.
+        - Usage: tag=okta
+    - okta-groups (future): Tag contains all of your Okta Group Log data.
         - Usage: tag=okta-groups
-    - okta-users: Tag contains all of your Okta Users Log data.
+    - okta-users (future): Tag contains all of your Okta Users Log data.
         - Usage: tag=okta-users
-    - okta-system: Tag contains all of your Okta System Log data.
+    - okta-system (future): Tag contains all of your Okta System Log data.
         - Usage: tag=okta-system
 
 #### 1.2. [Macros](#1-2-macros)
