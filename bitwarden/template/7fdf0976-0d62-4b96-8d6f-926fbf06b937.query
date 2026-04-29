@@ -1,0 +1,4 @@
+tag=$BITWARDEN_TAG ax
+| lookup -s -r bitwardenMembers actingUserId userId email
+| grep -e email %%email%%
+| chart
